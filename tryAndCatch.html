@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Error Handling </h1>
+    <P id="para"></P>
+    <script>
+        try{
+            function greeting (msg){
+                return
+            }
+        }catch(err){
+            console.log("err check karo--->",err)
+            document.getElementById("para").innerHTML=err.massage
+        }
+    </script>
+</body>
+</html>
